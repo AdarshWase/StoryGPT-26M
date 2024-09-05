@@ -5,7 +5,7 @@ import json
 st.set_page_config(page_title="StoryGPT Project", page_icon="📚", layout="wide")
 
 # Load stories
-with open('responses.json', 'r') as f:
+with open('data/responses.json', 'r') as f:
     stories = json.load(f)
 
 # Initialize session state for story index
